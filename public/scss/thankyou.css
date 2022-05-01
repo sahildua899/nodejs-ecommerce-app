@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+.success-section {
+    margin-top: 10%;
+    text-align: center;
+}
+.thankyou-image {
+    animation: popup 1s;
+}
+.thankyou-heading-1{
+    font-size: 36px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    margin: 0;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-family: 'Open sans', sans-serif;
+    color: green;
+}
+.thankyou-heading-2 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Open sans', sans-serif;
+}
+@keyframes popup {
+    0% {
+        transform: scale(0);
+    }
+
+    60% {
+        transform: scale(1.25, 1.25);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+@media (max-width:480px) {
+    .success-section {
+        margin-top: 30%;
+    }
+}

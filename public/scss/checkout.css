@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300&display=swap');
+* {
+    box-sizing: border-box;
+}
+#checkout-container {
+    padding: 2% 8%;
+}
+
+#main-heading {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 48px;
+    font-family: 'Open sans', sans-serif;
+    margin-top: 8%;
+}
+.items-section {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Open sans', sans-serif;
+}
+.checkout-card {
+    box-shadow: 0px 0px 5px #ccc;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.product-checkout-image {
+    width: 80px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #ccc;
+}
+.product-checkout-name {
+    margin: 0;
+}
+.content-section {
+    padding-left: 10px;
+    padding-top: 2px;
+}
+#left-section {
+    width: 50%;
+}
+.all-sections {
+    display: flex;
+}
+#right-section {
+    width: 50%;
+    height: fit-content;
+    margin-top: 18px;
+    margin-left: 3%;
+
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    padding: 16px;
+}
+.section-heading{ 
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Open sans', sans-serif;
+}
+.amount-section {
+    font-family: 'Open sans', sans-serif;
+}
+#total-amount {
+    color: black;
+    opacity: 0.8;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 4px;
+}
+#btn-place-order{ 
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    margin-top: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.product-checkout-name {
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Open sans', sans-serif;
+}
+.product-checkout-count {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open sans', sans-serif;
+}
+.product-checkout-amount {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open sans', sans-serif;
+}
+
+@media (max-width:480px) {
+    #checkout-container {
+        margin-top: 12%;
+    }
+    .all-sections {
+        flex-direction: column;
+    }
+    #left-section {
+        width: 90%;
+    }
+    #right-section {
+        width: 90%;
+    }
+}
